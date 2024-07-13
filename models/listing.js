@@ -8,10 +8,11 @@ const listingSchema = new Schema({
   },
   description: String,
   image: {
-    type: {
-      filename: String,
-      url: String
-    }
+    filename: String,
+    url: {
+      type: String,
+      default: 'https://cdn.pixabay.com/photo/2014/07/21/19/20/lobby-398845_1280.jpg',
+    },
   },
   price: Number,
   location: String,
