@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,5 +8,18 @@
 html,body {
     width: 100%;
     height: 100%;
-    background-color: pink;
+} */
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-studiovinari {
+    color: #fe424d;
+    font-size: 3rem;  
+}
+
+.nav-link {
+    color: #222222 !important;
 }
