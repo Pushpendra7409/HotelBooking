@@ -1,20 +1,20 @@
     <% layout("layout/boilerplate") %>
-    <div class="row">
+    <div class="row ">
     <div class="col-8 offset-2">
         <br> <br>
     <h3>Create a New Listing</h3>
     <form method="POST" action="/listings">
-        <div>
+        <div class="mb-3">
         <label for="title" class="form-label" >Title</label>
         <input name="listing[title]" placeholder="Add a Catchy Title" type="text" class="form-control">
         </div>
        
-        <div>
+        <div class="mb-3">
         <label for="description" class="form-label">Description</label>
         <textarea name="listing[description]" class="form-control"></textarea>
         </div>
         
-        <div>
+        <div class="mb-3">
         <label for="image" class="form-label">Image Link</label>
         <input name="listing[image]" placeholder="Enter Image URL/Link" type="text" class="form-control">
         </div>
@@ -30,13 +30,12 @@
             </div>
         </div>
         
-        <div>
+        <div class="mb-3">
         <label for="location" class="form-label">Location</label>
         <input name="listing[location]" placeholder="Jaipur, Rajasthan" type="text" class="form-control">
         </div>
 
-        <br><br>
-        <button class="btn btn-dark add-btn">Add</button>
+        <button class="btn btn-dark add-btn mt-3">Add</button>
         <br><br><br><br><br><br><br>
        
     </form>
