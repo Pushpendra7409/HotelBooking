@@ -1,11 +1,6 @@
-/* {
+html,body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}  */
-
-body {
     font-family: "Plus Jakarta Sans", sans-serif !important;
     display: flex;
     flex-direction: column;
@@ -128,6 +123,7 @@ background-color: white;
 }
 
 .btns {
+    margin-top: 20px;
     display: flex;
 }
 
